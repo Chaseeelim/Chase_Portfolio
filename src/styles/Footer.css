@@ -1,0 +1,46 @@
+/* Main Footer Styles */
+.footer {
+  background-color: #001f54;
+  color: white;
+  padding: 15px 0; /* Adjust padding for a balanced height */
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #004080;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow to the top of the footer */
+  margin-top: auto; /* Ensures footer stays at the bottom of the page content */
+}
+
+/* Footer Paragraph Styles */
+.footer p {
+  margin: 0;
+  color: white !important;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+/* Adjust Page Layout */
+.about-me-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure page fills the viewport height */
+}
+
+main.about-me-content {
+  flex: 1; /* Pushes footer to the bottom when content is short */
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Adjust Page Layout */
+.contact {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure page fills the viewport height */
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure page fills the viewport height */
+}
