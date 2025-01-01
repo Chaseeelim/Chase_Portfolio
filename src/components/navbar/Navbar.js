@@ -28,11 +28,6 @@ const Navbar = () => {
               Projects
             </NavLink>
           </li>
-          <li>
-            <NavLink className="nav-link" to="/contact" activeClassName="active">
-              Contact
-            </NavLink>
-          </li>
         </ul>
       </div>
     </nav>
