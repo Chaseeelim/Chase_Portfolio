@@ -37,7 +37,7 @@ const AboutMe = () => {
           <h2>Achievements</h2>
           <ul className="achievements-list">
             <li>
-              <strong className="achievement-title">Dato' Kho Hui Meng Scholarship Scholar 2022 - 2024 - SMU</strong>
+              <strong className="achievement-title">Dato' Kho Hui Meng Scholarship Scholar 2022 to 2024 - SMU</strong>
               <p className="achievement-description">
               the Dato' Kho Hui Meng Scholarship is available to first year full-time undergraduates pursuing any degree programme at the Singapore Management University. 
               </p>

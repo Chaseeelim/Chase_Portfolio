@@ -17,10 +17,10 @@ const LandingPage = () => {
           <img src={profileImage} alt="Not Found" />
           <h1>Hi, I'm Chase Lim</h1>
           <p className="subtitle">
-            Aspiring Software Engineer | Aspiring Fullstack Developer | Problem Solver
+            Aspiring Software Engineer | Aspiring Software Developer | Problem Solver
           </p>
           <p className="description">
-            I aspire to build scalable and efficient web applications with a passion for clean, maintainable, efficient code.
+            I aspire to build scalable and efficient software solutions with a passion for clean, maintainable, efficient code.
           </p>
           <div className="cta-buttons">
             <Link to="/projects" className="btn primary-btn">See My Projects</Link>
