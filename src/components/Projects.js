@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Projects.css'; // Importing the CSS file
+import '../styles/Projects.css';
 import Navbar from '../components/navbar/Navbar';
 import Footer from './footer/FooterX';
 import ascendasImage from '../assets/ascendas.jpg';
@@ -8,11 +8,7 @@ import jabHookUppercut from '../assets/jabhookuppercut.png';
 import hotWings from '../assets/hotwings.jpg';
 import ecoApp from '../assets/ecoApp.jpg';
 import ptBookingApp from '../assets/ptbookingapp.png';
-
-
-
-
-
+import tournamentApp from '../assets/tournamentApp.jpg';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -26,6 +22,13 @@ const Projects = () => {
       link: 'https://pt-booking-app.vercel.app/'
     },
     {
+      title: 'Tennis Tournament Management App',
+      description: 'Co-Developed an web app to simulate schedulding tournaments for tennis players',
+      skills: 'Java Spring Boot, AWS, Vercel',
+      image: tournamentApp,
+      link: 'https://pt-booking-app.vercel.app/'
+    },
+    {
       title: 'MigrantPals',
       description: 'A Telegram chatbot designed to educate and assist migrant workers in Singapore. Conducted on-site guidance sessions at dormitories.',
       skills: 'ChatGPT API, DialogueFlow',
@@ -34,7 +37,7 @@ const Projects = () => {
     },
     {
       title: 'Ascendas Admin System',
-      description: 'Backend and frontend system built with Java and AWS for managing administrative tasks.',
+      description: 'Collaborated on an app for managing administrative tasks. Backend and frontend system built with Java and AWS.',
       skills: 'Java, AWS (Lambda, DynamoDB, EC2, ElastiCache), PostgreSQL, Docker, Microservices Architecture',
       image: ascendasImage,
       link: 'https://github.com/cs301-itsa/project-2023-24T2-g1-t3-frontend.git'
@@ -78,7 +81,7 @@ const Projects = () => {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <span className="skills">{project.skills}</span>
-            {/* Conditionally render the button */}
+            
             {project.link && (
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <button className="project-button">View Project</button>

@@ -6,7 +6,6 @@ import '../styles/AboutMe.css';
 const AboutMe = () => {
   return (
     <div className="about-me-page">
-      {/* Navbar */}
       <Navbar />
 
       {/* Main Content */}
@@ -112,7 +111,6 @@ const AboutMe = () => {
         </section>
       </main>
 
-      {/* Footer */}
       <Footer />
     </div>
   );

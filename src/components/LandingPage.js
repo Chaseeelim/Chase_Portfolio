@@ -9,7 +9,7 @@ import Footer from './footer/FooterX';
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      {/* Navbar */}
+  
       <Navbar />
       {/* Hero Section */}
       <header className="hero-section">

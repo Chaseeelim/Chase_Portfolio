@@ -1,13 +1,12 @@
-/* Navbar Styling */
 .custom-navbar {
-  background-color: #001f54; /* Dark blue background */
+  background-color: #001f54;
   padding: 10px 5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
   font-family: Arial, sans-serif;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -21,7 +20,7 @@
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #f0e68c; /* Soft beige text */
+  color: #f0e68c;
   text-decoration: none;
   letter-spacing: 0.5px;
 }
@@ -40,7 +39,7 @@
 }
 
 .nav-link {
-  color: #f0e68c; /* Soft beige text for links */
+  color: #f0e68c;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
@@ -49,17 +48,17 @@
 }
 
 .nav-link:hover {
-  color: #008080; /* Dark teal on hover */
+  color: #008080;
 }
 
 .nav-link.active {
-  border-bottom: 2px solid #008080; /* Dark teal underline for active link */
+  border-bottom: 2px solid #008080;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .navbar-links {
-      display: none; /* Hide links on smaller screens */
+      display: none;
   }
 }
 
